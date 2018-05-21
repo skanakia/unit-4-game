@@ -1,0 +1,27 @@
+.char {
+    padding: 0px 20px;
+    border: 2px;
+    border-style: solid;
+    border-color: green;
+    margin: 2px;
+}
+
+.header {
+    color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.big-header {
+    color: green;
+}
+
+.char-text {
+    color: yellow;
+    text-align: center;
+}
+
+.char-text-dark {
+    color: red;
+    text-align: center;
+}
+

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Starwars RPG</title>
+
+        <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+        <!-- <link  rel="stylesheet" type="text/css" href="./assets/css/style.css"> -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script> -->
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+        <!-- <script src="./assets/javascript/game.js"></script> -->
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+        <script src="./assets/javascript/game.js"></script>
+
+    </head>
+
+    <body background="./assets/images/Hangarbay.png" />
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="characters">
+                        <div class="float-left char" id="fighter1">
+                            <p class="char-text">Obi-Wan Kenobi</p>
+                            <img height="100" width="100" src="./assets/images/obi-wan.jpg" />
+                            <p class="char-text" id="hp120">120</p>
+                        </div>
+                        <div class="float-left char" id="fighter2">
+                            <p class="char-text">Luke Skywalker</p>
+                            <img height="100" width="100" src="./assets/images/luke-skywalker.jpg" />
+                            <p class="char-text" id="hp100">100</p>
+                        </div>
+                        <div class="float-left char" id="fighter3">
+                            <p class="char-text-dark">Darth Insidious</p>
+                            <img height="100" width="100" src="./assets/images/darth-insidious.jpg" />
+                            <p class="char-text-dark" id="hp150">150</p>
+                        </div>
+                        <div class="float-left char" id="fighter4">
+                            <p class="char-text-dark">Darth Maul</p>
+                            <img height="100" width="100" src="./assets/images/Darth_Maul.png" />
+                            <p class="char-text-dark" id="hp180">180</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="logo">
+                        <img height= "100" width="300" class= "img-fluid" src="./assets/images/StarWarsLogo.png" />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="header"><h2>Your Character</h2></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="header">
+                        <h2>Fight Section</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div id="char-box">
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="attack-button">
+                        <button id="fightButton" type="button" class="btn btn-outline-warning">Attack</button>
+                    </div>
+                    <div class="fight-dialog">
+            
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="header">
+                        <h2>Enemies Available</h2>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="header">
+                        <h2>Defender</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div id="opp-box">
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div id="defender-box">
+                            
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="fight-dialog">
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
