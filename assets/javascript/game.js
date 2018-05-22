@@ -97,7 +97,7 @@ $(document).ready(function() {
                 oppName = "Luke Skywalker";
                 oppHp = 100;
                 if (force === "light") {
-                    countAttPow = 5;
+                    countAttPow = 4;
                 } else {
                     countAttPow = 40;
                 }
